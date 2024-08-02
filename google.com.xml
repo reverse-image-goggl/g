@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="google.com" />
+<Content type="html"><![CDATA[
+
 <!DOCTYPE html>
 
 <html lang="en-us">
@@ -5,7 +10,7 @@
 <meta charset="utf-8"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-<title>Eat Blobs Simulator</title>
+<title>google.com</title>
 <style>
         html,
         body {
@@ -92,9 +97,9 @@
         productName: "Eat Blobs Simulator",
         productVersion: "0.1n",
         webglContextAttributes: {
-    		preserveDrawingBuffer: true,
-		powerPreference: "high-performance",
-  	},
+            preserveDrawingBuffer: true,
+        powerPreference: "high-performance",
+    },
       };
 
       const container = document.querySelector("#unity-container");
@@ -128,8 +133,8 @@
       
       canvas.style.background = "url('https://cdn.jsdelivr.net/gh/reverse-image-goggl/g@main/Build/26c74573bbb7465977abae4f700b1cec.jpg') center / cover";
       loadingCover.style.display = "";
-	  
-	    let myGameInstance = null;
+      
+        let myGameInstance = null;
         let player;
         let leaderboard;
         let payments = null;
@@ -160,7 +165,7 @@
             });
         };
 
-	    InitYandex();
+        InitYandex();
         function InitYandex() {
             YaGames.init()
                 .then(ysdk => {
@@ -754,3 +759,7 @@
     </script>
 </body>
 </html>
+
+
+]]></Content>
+</Module>
